@@ -50,5 +50,6 @@ int main()
 		}
 	}
 	printf("%d\n", room_rank[0]);
+	
 	return 0;
 }
