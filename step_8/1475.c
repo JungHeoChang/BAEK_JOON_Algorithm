@@ -28,7 +28,7 @@ int main()
 			}
 		}
 	}
-	// 6 ÀÌ¶û 9
+	// 6 Ã€ÃŒÂ¶Ã» 9
 	num_empty = ((room_number[1][6] + room_number[1][9]) / 2) + (room_number[1][6] + room_number[1][9]) % 2;
 	room_number[1][6] = num_empty;
 
@@ -37,9 +37,9 @@ int main()
 		room_rank[i] = room_number[1][i];
 	}
 
-	for(i=0; i<8; i++) // ¼øÀ§ ºñ±³
+	for(i=0; i<8; i++) // Â¼Ã¸Ã€Â§ ÂºÃ±Â±Â³
 	{
-		for(j=1; j<8; j++)
+		for(j=1; j<9-i; j++)
 		{
 			if(room_rank[j-1] < room_rank[j])
 			{
